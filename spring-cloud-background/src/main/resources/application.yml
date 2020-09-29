@@ -1,0 +1,25 @@
+debug: false
+
+server:
+  port: 8090
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: Background Server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8091/eureka/
+
+thymeleaf:
+  cache: false
+  encoding: UTF-8
+  mode: HTML
+  prefix: classpath:/templates/
+  servlet:
+    content-type: text/html
+  suffix: .html
+

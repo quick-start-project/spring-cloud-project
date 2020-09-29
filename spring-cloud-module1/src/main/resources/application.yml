@@ -1,0 +1,15 @@
+debug: false
+
+server:
+  port: 8092
+
+spring:
+  application:
+    name: Module1 Server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8091/eureka/
+
+
